@@ -1,0 +1,117 @@
+{
+  "comments" : {
+    "-JdRcdydIlMGA9JnN-SF" : {
+      "content" : "komentar",
+      "date" : "2014-12-18",
+      "name" : "aa@adsada.com",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "-JdRe3mH5M02GaYveHUU" : {
+      "content" : "asdsd",
+      "date" : "2014-12-18",
+      "name" : "nama",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "-JdReRHZsVk20y_rwx15" : {
+      "content" : "asdsd",
+      "date" : "2014-12-18",
+      "name" : "test",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "-JdRuJrVMhmxRySxJTfM" : {
+      "content" : "hahahha",
+      "date" : "2014-12-18",
+      "name" : "null",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "-JdS3lgIDBYu6NFjSkUu" : {
+      "content" : "hahahaha",
+      "date" : "2014-12-18",
+      "name" : "admin",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "-JdS48WcLMGPXIZkfmbb" : {
+      "content" : "wqwwqwqwqwqwq",
+      "date" : "2014-12-18",
+      "name" : "admin",
+      "postId" : "-JdRM1TacvSasf5jMLn_"
+    },
+    "comment1" : {
+      "content" : "spam spam spam",
+      "date" : "2016-5-5",
+      "email" : "noreply@asd.com",
+      "name" : "noob",
+      "postId" : "post1"
+    }
+  },
+  "posts" : {
+    "-JdRM1TacvSasf5jMLn_" : {
+      "comments" : {
+        "-JdRYFoyaDGeqfD2JCvS" : {
+          "content" : "namamasdsd",
+          "date" : "2014-12-18",
+          "name" : "email@emasil.com"
+        },
+        "-JdRYJf04fjqgIQCzxWm" : {
+          "content" : "namamasdsd",
+          "date" : "2014-12-18",
+          "name" : "email@emasil.com"
+        },
+        "-JdRYZYk6BK__y3tuojt" : {
+          "content" : "namamasdsd",
+          "date" : "2014-12-18",
+          "name" : "email@emasil.com"
+        }
+      },
+      "content" : "First Blood",
+      "date" : "2016-02-05",
+      "deleted" : "false",
+      "published" : "true",
+      "title" : "First Blood"
+    },
+    "-JdRQYBrfVKHdTy6Dfo7" : {
+      "content" : "Second Bllod",
+      "date" : "2016-02-05",
+      "deleted" : "false",
+      "published" : "false",
+      "title" : "Second Bloof"
+    },
+    "post1" : {
+      "author" : "user1",
+      "comments" : {
+        "comment1" : true
+      },
+      "content" : "Lorem Ipsum Dolor Sit Amet",
+      "date" : "2015-10-10",
+      "deleted" : "false",
+      "published" : "true",
+      "title" : "Lorem"
+    }
+  },
+  "users" : {
+    "-JdS5a4MlqZOAdDCLnR2" : {
+      "email" : "editor@editor.com",
+      "name" : "edito",
+      "password" : "password",
+      "role" : "Editor"
+    },
+    "user1" : {
+      "admin" : "true",
+      "editor" : "false",
+      "email" : "admin@admin.co",
+      "name" : "admin",
+      "owner" : "false",
+      "password" : "password",
+      "role" : "Admin"
+    },
+    "user2" : {
+      "admin" : "false",
+      "editor" : "false",
+      "email" : "13511075@std.stei.itb.ac.id",
+      "name" : "Ichlasul Amal",
+      "owner" : "true",
+      "password" : "password",
+      "role" : "Owner"
+    }
+  }
+}
