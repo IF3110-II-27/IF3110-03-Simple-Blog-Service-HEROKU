@@ -9,7 +9,7 @@ import javax.jws.WebService;
 @WebService
 public interface BasicBlogService {
 
-        Boolean addPost(String judul, String author, String konten, String tanggal);
+        Boolean addPost(String judul, String konten, String tanggal);
         
         ArrayList<Post> listPost();
         
@@ -27,11 +27,11 @@ public interface BasicBlogService {
  
         Boolean deleteUser(String id);
         
-        Boolean addComment(String postId, String nama, String email, String konten);
+        Boolean addComment(String postId, String nama, String email, String konten, String tanggal);
 
         ArrayList<Comment> listComment(String postId);
         
-        ArrayList<Post> seatch(String query);
+        ArrayList<Post> search(String query);
         
         Boolean restorePost(String id);
         
