@@ -8,12 +8,6 @@ import java.util.ArrayList;
 public class BasicBlogServiceImpl implements BasicBlogService {
 
     @Override
-    public String sayHi(String input) {
-            System.out.println("Hello invoked : " + input);
-            return String.format("Hello '%s'", input);
-    }
-
-    @Override
     public Boolean addPost(String judul, String author, String konten, String tanggal) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

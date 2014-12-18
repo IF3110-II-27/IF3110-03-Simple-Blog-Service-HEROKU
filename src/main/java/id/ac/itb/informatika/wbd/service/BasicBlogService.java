@@ -9,8 +9,6 @@ import javax.jws.WebService;
 @WebService
 public interface BasicBlogService {
 
-	String sayHi(String input);
-        
         Boolean addPost(String judul, String author, String konten, String tanggal);
         
         ArrayList<Post> listPost();

@@ -97,7 +97,7 @@
 					<generateRepository>true</generateRepository>
 					<programs>
 						<program>
-							<mainClass>org.chamerling.heroku.jetty.JettyServer</mainClass>
+							<mainClass>id.ac.itb.informatika.wbd.jetty.JettyServer</mainClass>
 							<name>webapp</name>
 						</program>
 					</programs>
