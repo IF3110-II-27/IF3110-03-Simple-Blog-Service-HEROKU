@@ -1,4 +1,4 @@
-package org.chamerling.heroku.jetty;
+package id.ac.itb.informatika.wbd.jetty;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

@@ -1,13 +1,6 @@
-/**
- * 
- */
-package org.chamerling.heroku.service;
+package id.ac.itb.informatika.wbd.service;
 
-/**
- * @author chamerling
- * 
- */
-public class HelloServiceImpl implements HelloService {
+public class SimpleBlogServiceImpl implements SimpleBlogService {
 
 	@Override
 	public String sayHi(String input) {
